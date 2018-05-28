@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS 1.6 User Registration and Login</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="alert alert-success" ng-if="status" ng-bind="status"></div>
+                <div ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash" ng-bind="flash.message"></div>
+                <div id="app" ng-view></div>
+            </div>
+        </div>
+    </div>
+    <div class="credits text-center">
+        <p>
+            <a href="#">Login-Logout-Workflow</a>
+        </p>
+        <p>
+            <a href="#">Sachindra Singh</a>
+        </p>
+    </div>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//code.angularjs.org/1.6.0/angular.min.js"></script>
+    <script src="//code.angularjs.org/1.6.0/angular-route.min.js"></script>
+    <script src="//code.angularjs.org/1.6.0/angular-cookies.min.js"></script>
+
+    <script src="module.js"></script>
+
+    <script src="components/welcome/welcome.controller.js"></script>
+    <script src="components/login/login.controller.js"></script>
+    <script src="components/dashboard/dashboard.controller.js"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>

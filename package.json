@@ -1,0 +1,17 @@
+{
+  "name": "login-logout-workflow",
+  "version": "1.0.0",
+  "description": "AngularJS 1.6 User Registration and Login",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "start": "npm run start:dev"
+  },
+  "author": "Sachindra Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
