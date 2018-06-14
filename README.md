@@ -3,7 +3,8 @@ AngularJS 1.6 User Registration and Login using Node and mongoDB.
 
 This project was generated with [Angular JS](https://github.com/angular/angular-cli) version 1.6.0.
 
-Click on bellow link for prview:
+Click on link for prview:
+
 [Login-Logout-Workflow-Code-Test](https://sachindrasingh.github.io/Login-Logout-Workflow-Code-Test/)
 
 
